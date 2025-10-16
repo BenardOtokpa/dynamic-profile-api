@@ -1,4 +1,4 @@
-# # 🐱 Dynamic Profile API (GET /me)
+## 🐱 Dynamic Profile API (GET /me)
 
 **Repository:** `dynamic-profile-api`  
 **Stack:** `Node.js / Express`  
@@ -29,8 +29,10 @@ The endpoint returns your profile information along with a **dynamic cat fact** 
   "fact": "Cats sleep for 70% of their lives."
 }
 
+---
+
 ## Repository Contents
-.
+
 ├─ server.js            # Express app (GET /me)
 ├─ package.json         # scripts & dependencies
 ├─ .env         # environment variable examples
@@ -38,22 +40,24 @@ The endpoint returns your profile information along with a **dynamic cat fact** 
 │   └─ me.test.js       # Jest + Supertest tests (mocks axios)
 └─ README.md            # this file
 
+---
+
 ## Installation & Local Run
-Prerequisites
+
+**Prerequisites**
 
 Node.js (v16+ recommended)
-
 npm (or yarn)
-
 Git
 
-1. Clone repository
-``` git clone https://github.com/<YOUR_USERNAME>/dynamic-profile-api.git
+ **Clone repository**
+ git clone https://github.com/<YOUR_USERNAME>/dynamic-profile-api.git
    cd dynamic-profile-api
 
 - npm install
 - npm run dev
 By default the server runs at http://localhost:3000. Open: http://localhost:3000/me
 
-- For test
+**For test**
 - npm test
+```
